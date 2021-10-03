@@ -2,9 +2,9 @@
 functions = "functions"
 
 [[redirects]]
-from = "/products"
-to = "/collections"
-status = 301
+to = "/tail"
+from = "/tip"
+status = "301"
 
 [[redirects]]
 from = "/collections"
