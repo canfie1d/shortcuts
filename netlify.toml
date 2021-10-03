@@ -1,40 +1,45 @@
 [build]
-  functions = "functions"
+functions = "functions"
 
 [[redirects]]
-  from = "/products"
-  to = "/collections"
-  status = 301
+from = "/products"
+to = "/collections"
+status = 301
 
 [[redirects]]
-  from = "/collections"
-  to = "/collections/all-products"
-  status = 301
+from = "/collections"
+to = "/collections/all-products"
+status = 301
 
 [[redirects]]
-  from = "/collections/:collection/products/:product"
-  to = "/products/:product"
-  status = 301
+from = "/collections/:collection/products/:product"
+to = "/products/:product"
+status = 301
 
 [[redirects]]
-  from = "/products/giftcard"
-  to = "/products/e-giftcard"
-  status = 301
+from = "/products/giftcard"
+to = "/products/e-giftcard"
+status = 301
 
 [[redirects]]
-  from = "/sizing"
-  to = "/pages/sizing"
-  status = 301
+from = "/sizing"
+to = "/pages/sizing"
+status = 301
 
 [[redirects]]
-  from = "/reviews"
-  to = "/pages/reviews"
-  status = 301
+from = "/reviews"
+to = "/pages/reviews"
+status = 301
+
+[[redirects]]
+to = "d"
+from = "ds"
+status = "301"
 
 [[plugins]]
-  package = "@netlify/plugin-sitemap"
+package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
-    buildDir = "."
-    prettyURLs = true
-    trailingSlash = true
+  buildDir = "."
+  prettyURLs = true
+  trailingSlash = true
