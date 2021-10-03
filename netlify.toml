@@ -36,11 +36,6 @@ to = "/tail"
 from = "/tip"
 status = "301"
 
-[[redirects]]
-to = "/tails"
-from = "/tip"
-status = "301"
-
 [[plugins]]
 package = "@netlify/plugin-sitemap"
 
