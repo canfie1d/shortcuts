@@ -31,11 +31,6 @@ from = "/reviews"
 to = "/pages/reviews"
 status = 301
 
-[[redirects]]
-to = "d"
-from = "ds"
-status = "301"
-
 [[plugins]]
 package = "@netlify/plugin-sitemap"
 
