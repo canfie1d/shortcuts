@@ -2,7 +2,7 @@
 functions = "functions"
 
 [[redirects]]
-to = "/bottom"
+to = "/bo"
 from = "/top"
 status = "301"
 
