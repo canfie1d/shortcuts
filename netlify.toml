@@ -2,11 +2,6 @@
 functions = "functions"
 
 [[redirects]]
-to = "/pages/phoebereads?utm_medium=podcast&utm_source=phoebereads&utm_campaign=fall2021&utm_content=30-prerecord"
-from = "/phoebereads"
-status = "301"
-
-[[redirects]]
 to = "/pages/busy20?utm_medium=podcast&utm_source=busy20&utm_campaign=fall2021&utm_content=igstory"
 from = "/busy20"
 status = "301"
