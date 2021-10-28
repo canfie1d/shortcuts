@@ -2,6 +2,11 @@
 functions = "functions"
 
 [[redirects]]
+to = "/pull2"
+from = "/pull"
+status = "301"
+
+[[redirects]]
 from = "/products/giftcard"
 to = "/products/e-giftcard"
 status = 301
